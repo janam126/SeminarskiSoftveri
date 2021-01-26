@@ -1,0 +1,6 @@
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Domen\bin\Debug\Domen.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Domen\bin\Debug\Domen.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Domen\obj\Debug\Domen.csprojAssemblyReference.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Domen\obj\Debug\Domen.csproj.CoreCompileInputs.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Domen\obj\Debug\Domen.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Domen\obj\Debug\Domen.pdb

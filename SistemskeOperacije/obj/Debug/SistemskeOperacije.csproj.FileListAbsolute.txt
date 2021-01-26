@@ -1,0 +1,11 @@
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\obj\Debug\SistemskeOperacije.csprojAssemblyReference.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\obj\Debug\SistemskeOperacije.csproj.CoreCompileInputs.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\bin\Debug\SistemskeOperacije.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\bin\Debug\SistemskeOperacije.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\bin\Debug\DBBroker.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\bin\Debug\Domen.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\bin\Debug\DBBroker.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\bin\Debug\Domen.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\obj\Debug\SistemskeOperacije.csproj.CopyComplete
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\obj\Debug\SistemskeOperacije.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\SistemskeOperacije\obj\Debug\SistemskeOperacije.pdb

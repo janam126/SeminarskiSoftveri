@@ -1,0 +1,12 @@
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\bin\Debug\Test.exe.config
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\bin\Debug\Test.exe
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\bin\Debug\Test.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\bin\Debug\DBBroker.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\bin\Debug\Domen.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\bin\Debug\DBBroker.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\bin\Debug\Domen.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\obj\Debug\Test.exe
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Test\obj\Debug\Test.pdb

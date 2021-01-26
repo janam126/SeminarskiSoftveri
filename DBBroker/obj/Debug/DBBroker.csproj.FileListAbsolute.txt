@@ -1,0 +1,9 @@
+C:\Users\Jana\source\repos\SeminarskiSoftveri\DBBroker\bin\Debug\DBBroker.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\DBBroker\bin\Debug\DBBroker.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\DBBroker\bin\Debug\Domen.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\DBBroker\bin\Debug\Domen.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\DBBroker\obj\Debug\DBBroker.csprojAssemblyReference.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\DBBroker\obj\Debug\DBBroker.csproj.CoreCompileInputs.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\DBBroker\obj\Debug\DBBroker.csproj.CopyComplete
+C:\Users\Jana\source\repos\SeminarskiSoftveri\DBBroker\obj\Debug\DBBroker.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\DBBroker\obj\Debug\DBBroker.pdb

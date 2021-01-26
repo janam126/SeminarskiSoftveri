@@ -1,0 +1,9 @@
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Zajednicki\bin\Debug\Zajednicki.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Zajednicki\bin\Debug\Zajednicki.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Zajednicki\obj\Debug\Zajednicki.csprojAssemblyReference.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Zajednicki\obj\Debug\Zajednicki.csproj.CoreCompileInputs.cache
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Zajednicki\obj\Debug\Zajednicki.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Zajednicki\obj\Debug\Zajednicki.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Zajednicki\bin\Debug\Domen.dll
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Zajednicki\bin\Debug\Domen.pdb
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Zajednicki\obj\Debug\Zajednicki.csproj.CopyComplete
