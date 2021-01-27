@@ -45,5 +45,10 @@ namespace Domen
         {
             throw new NotImplementedException();
         }
+
+        public override string ToString()
+        {
+            return NazivVrste;
+        }
     }
 }

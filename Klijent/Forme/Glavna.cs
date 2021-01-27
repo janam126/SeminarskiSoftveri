@@ -23,6 +23,18 @@ namespace Klijent.Forme
             unosClanova.ShowDialog();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmFormiranjeGrupe formirajGrupu = new FrmFormiranjeGrupe();
+            formirajGrupu.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmZakazivanjeTermina zakazivanjeTermina = new FrmZakazivanjeTermina();
+            zakazivanjeTermina.ShowDialog();
+        }
+
         //private void ubaciNovogClanaToolStripMenuItem_Click(object sender, EventArgs e)
         //{
         //    FrmUnosClanova unosClanova = new FrmUnosClanova();

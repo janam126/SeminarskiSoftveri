@@ -13,11 +13,15 @@ namespace Zajednicki
         public Signal Signal { get; set; }
         public Trener Trener { get; set; }
         public List<GrupaZaTrening> Grupe { get; set; }
+        public List<VrstaGrupe> VrstaGrupe { get; set; }
+        public List<Trener> ListaTrenera { get; set; }
     }
 
     public enum Signal
     {
         UspesnoPrijavljen,
-        ClanUspesnoDodat
+        ClanUspesnoDodat,
+        GrupaUspesnoDodata,
+        UspenoDodatiTermini
     }
 }

@@ -15,3 +15,5 @@ C:\Users\Jana\source\repos\SeminarskiSoftveri\Klijent\obj\Debug\Klijent.exe
 C:\Users\Jana\source\repos\SeminarskiSoftveri\Klijent\obj\Debug\Klijent.pdb
 C:\Users\Jana\source\repos\SeminarskiSoftveri\Klijent\obj\Debug\Klijent.Forme.FrmUnosClanova.resources
 C:\Users\Jana\source\repos\SeminarskiSoftveri\Klijent\obj\Debug\Klijent.Forme.Glavna.resources
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Klijent\obj\Debug\Klijent.Forme.FrmFormiranjeGrupe.resources
+C:\Users\Jana\source\repos\SeminarskiSoftveri\Klijent\obj\Debug\Klijent.Forme.FrmZakazivanjeTermina.resources

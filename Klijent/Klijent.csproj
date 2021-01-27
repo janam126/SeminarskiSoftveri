@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forme\FrmFormiranjeGrupe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\FrmFormiranjeGrupe.Designer.cs">
+      <DependentUpon>FrmFormiranjeGrupe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\FrmUnosClanova.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forme\FrmUnosClanova.Designer.cs">
       <DependentUpon>FrmUnosClanova.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\FrmZakazivanjeTermina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\FrmZakazivanjeTermina.Designer.cs">
+      <DependentUpon>FrmZakazivanjeTermina.cs</DependentUpon>
     </Compile>
     <Compile Include="Forme\Glavna.cs">
       <SubType>Form</SubType>
@@ -65,12 +77,20 @@
       <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
     <Compile Include="Komunikacija.cs" />
+    <Compile Include="Kontroleri\FormiranjeGrupeKontroler.cs" />
     <Compile Include="Kontroleri\LogInKontroler.cs" />
     <Compile Include="Kontroleri\UnosClanaKontroler.cs" />
+    <Compile Include="Kontroleri\ZakazivanjeTerminaKontroler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forme\FrmFormiranjeGrupe.resx">
+      <DependentUpon>FrmFormiranjeGrupe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\FrmUnosClanova.resx">
       <DependentUpon>FrmUnosClanova.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\FrmZakazivanjeTermina.resx">
+      <DependentUpon>FrmZakazivanjeTermina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\Glavna.resx">
       <DependentUpon>Glavna.cs</DependentUpon>

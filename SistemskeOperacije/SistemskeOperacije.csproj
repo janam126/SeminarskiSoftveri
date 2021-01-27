@@ -53,6 +53,7 @@
     <Compile Include="UcitajListuGrupaSO.cs" />
     <Compile Include="UcitajListuTreneraSO.cs" />
     <Compile Include="UcitajTerminSO.cs" />
+    <Compile Include="UcitajVrsteGrupaSO.cs" />
     <Compile Include="ZapamtiClanaSO.cs" />
     <Compile Include="ZapamtiGrupuZaTreningSO.cs" />
     <Compile Include="ZapamtiTermineSO.cs" />

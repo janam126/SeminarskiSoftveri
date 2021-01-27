@@ -36,7 +36,7 @@ namespace Kontroler
         public bool SacuvajTermine(List<Termin> termini)
         {
             ApstraktnaGenerickaOperacija operacija = new ZapamtiTermineSO();
-            return (bool)operacija.ExecuteSO((DomenskiObjekat)termini);
+            return (bool)operacija.ExecuteSO(termini);
         }
 
         public bool SacuvajGrupuZaTrening(GrupaZaTrening grupa)
@@ -108,6 +108,13 @@ namespace Kontroler
         {
             ApstraktnaGenerickaOperacija operacija = new ObrisiTerminSO();
             return (bool)operacija.ExecuteSO(termin);
+        }
+
+
+        public List<VrstaGrupe> VratiSveVrste(VrstaGrupe vrsta)
+        {
+            ApstraktnaGenerickaOperacija operacija = new UcitajVrsteGrupaSO();
+            return (List<VrstaGrupe>)operacija.ExecuteSO(vrsta);
         }
     }
 }

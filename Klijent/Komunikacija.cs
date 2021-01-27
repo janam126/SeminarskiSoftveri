@@ -1,6 +1,7 @@
 ﻿using Domen;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Net.Sockets;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -13,6 +14,7 @@ namespace Klijent
     public class Komunikacija
     {
         private static Komunikacija instance;
+
         private Socket klijentskiSoket;
         private NetworkStream stream;
         private BinaryFormatter formatter = new BinaryFormatter();
@@ -21,7 +23,7 @@ namespace Klijent
         {
             get
             {
-                if(instance == null)
+                if (instance == null)
                 {
                     instance = new Komunikacija();
                 }
@@ -91,5 +93,51 @@ namespace Klijent
             return false; 
         }
 
+        public List<VrstaGrupe> VratiVrsteGrupa()
+        {
+            Zahtev zahtev = new Zahtev();
+            zahtev.Operacija = Operacija.VratiVrste;
+            formatter.Serialize(stream, zahtev);
+            Odgovor odgovor = (Odgovor)formatter.Deserialize(stream);
+            return odgovor.VrstaGrupe;
+        }
+
+        public bool SacuvajGrupu(VrstaGrupe vrstaGrupe)
+        {
+            Zahtev zahtev = new Zahtev();
+            zahtev.Operacija = Operacija.SacuvajGrupu;
+            zahtev.VrstaGrupe = vrstaGrupe;
+            formatter.Serialize(stream, zahtev);
+            Odgovor odgovor = (Odgovor)formatter.Deserialize(stream);
+            if(odgovor.Signal == Signal.GrupaUspesnoDodata)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        internal List<Trener> PrikaziTrenere()
+        {
+            Zahtev zahtev = new Zahtev();
+            zahtev.Operacija = Operacija.VratiTrenere;
+            formatter.Serialize(stream, zahtev);
+            Odgovor odgovor = (Odgovor)formatter.Deserialize(stream);
+            return odgovor.ListaTrenera;
+        }
+
+
+        internal bool SacuvajSveTermine(BindingList<Termin> termini)
+        {
+            Zahtev zahtev = new Zahtev();
+            zahtev.Operacija = Operacija.SacuvajTermine;
+            zahtev.Termini = termini;
+            formatter.Serialize(stream, zahtev);
+            Odgovor odgovor = (Odgovor)formatter.Deserialize(stream);
+            if(odgovor.Signal == Signal.UspenoDodatiTermini)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

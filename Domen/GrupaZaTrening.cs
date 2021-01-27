@@ -16,13 +16,13 @@ namespace Domen
 
         public string TableName => "GrupaZaTrening";
 
-        public string InsertValues => $"{BrojClanova}, {VrstaGrupe.VrstaGrupeID}";
+        public string InsertValues => $"{0}, {VrstaGrupe.VrstaGrupeID}";
 
         public string JoinFull => $"g JOIN VrstaGrupe vg ON (g.VrstaGrupeID = vg.VrstaGrupeID)";
 
         public string JoinTable => throw new NotImplementedException();
 
-        public string KriterijumPretrage => $"GrupaID = {GrupaID}";
+        public string KriterijumPretrage => $"GrupaID = {GrupaID}"; 
 
         public string UpdateValues => $"BrojClanova = {BrojClanova}, VrstaGrupeID = {VrstaGrupe.VrstaGrupeID}";
 
@@ -65,7 +65,7 @@ namespace Domen
 
         public override string ToString()
         {
-            return  VrstaGrupe.NazivVrste+" "+BrojClanova.ToString();
+            return  VrstaGrupe.NazivVrste + " " + BrojClanova.ToString();
         }
     }
 }

@@ -62,6 +62,29 @@ namespace Server
                             }
                             formatter.Serialize(stream, odgovor);                    
                             break;
+
+                        case Operacija.VratiVrste:
+                            odgovor.VrstaGrupe = Controller.Instance.VratiSveVrste(new VrstaGrupe());
+                            formatter.Serialize(stream, odgovor);
+                            break;
+
+                        case Operacija.SacuvajGrupu:
+                            GrupaZaTrening grupaZaTrening = new GrupaZaTrening { VrstaGrupe =zahtev.VrstaGrupe};
+                            if (Controller.Instance.SacuvajGrupuZaTrening(grupaZaTrening))
+                            {
+                                odgovor.Signal = Signal.GrupaUspesnoDodata;
+                            }
+                            formatter.Serialize(stream, odgovor);
+                            break;
+
+                        case Operacija.VratiTrenere:
+                            odgovor.ListaTrenera = Controller.Instance.VratiSveTrenere();
+                            formatter.Serialize(stream, odgovor);
+                            break;
+
+                        case Operacija.SacuvajTermine:
+                            Controller.Instance.SacuvajTermine(zahtev.Termini.ToList());
+                            break;
                     }
                 }
             }

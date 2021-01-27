@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -15,16 +16,18 @@ namespace Domen
         public string VremeTermina { get; set; }
         public GrupaZaTrening Grupa { get; set; }
         public Trener Trener { get; set; }
+
+        [Browsable(false)]
         public string TableName => "Termin";
-
+        [Browsable(false)]
         public string InsertValues => $"'{DanTermina}', '{VremeTermina}', {Grupa.GrupaID}, {Trener.TrenerID}";
-
+        [Browsable(false)]
         public string JoinFull => $"ter JOIN GrupaZaTrening g ON (ter.GrupaID = g.GrupaID) JOIN Trener t ON (ter.Termin = t.TerminID)";
-
+        [Browsable(false)]
         public string JoinTable => throw new NotImplementedException();
-
+        [Browsable(false)]
         public string KriterijumPretrage => $"TerminID = {TerminID}";
-
+        [Browsable(false)]
         public string UpdateValues => $"DanTermina = '{DanTermina}', VremeTermina = '{VremeTermina}', GrupaID = {Grupa.GrupaID}, TrenerID = {Trener.TrenerID}";
 
         public List<DomenskiObjekat> GetEntities(SqlDataReader reader)
